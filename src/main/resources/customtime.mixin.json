@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "de.speznas.customtime.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "customtime.refmap.json",
+  "verbose": false,
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "CustomTimeMixin"
+  ]
+}

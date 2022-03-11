@@ -1,0 +1,11 @@
+{
+  "name": "CustomTime",
+  "uuid": "%uuid%",
+  "mainClass": "de.speznas.customtime.CustomTimeAddon",
+  "transformerClass": "de.speznas.customtime.CustomTimeAddonTransformer",
+  "description": "Customize your Worldtime",
+  "version": 1,
+  "author": "Speznas",
+  "category": 2,
+  "icon": "https://i.ibb.co/QJVj0Kc/download.png"
+}
