@@ -66,7 +66,7 @@ public class CustomTimeAddon extends LabyModAddon {
     NumberElement speedNumElement = new NumberElement("Loop Speed \n(0 - 200)",
             new ControlElement.IconData(Material.REDSTONE_TORCH), this.getConfig().get("loopSpeed").getAsInt());
 
-    speedNumElement.setRange(0, 200);
+    speedNumElement.setRange(-200, 200);
     speedNumElement.addCallback(new Consumer<Integer>() {
       @Override
       public void accept( Integer accepted ) {
@@ -84,7 +84,6 @@ public class CustomTimeAddon extends LabyModAddon {
     dropDownMenu.setSelected(this.getConfig().get("loopMode").getAsString());
 
     DropDownElement dropDownElement = new DropDownElement("", dropDownMenu);
-
     dropDownElement.setChangeListener(new Consumer() {
       @Override
       public void accept(Object accepted) {
