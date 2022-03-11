@@ -63,7 +63,7 @@ public class CustomTimeAddon extends LabyModAddon {
     });
     list.add(staticTimeNumElement);
 
-    NumberElement speedNumElement = new NumberElement("Loop Speed \n(0 - 200)",
+    NumberElement speedNumElement = new NumberElement("Loop Speed \n(-200 - 200)",
             new ControlElement.IconData(Material.REDSTONE_TORCH), this.getConfig().get("loopSpeed").getAsInt());
 
     speedNumElement.setRange(-200, 200);
